@@ -15,9 +15,10 @@ while True:
 
     computador_escolha = 1
 
-  # --------------------------------------------------
-  # FAÇA COM QUE A ESCOLHA DO COMPUTADOR SEJA ALEATÓRIA
-  # --------------------------------------------------
+    num = "012"
+
+    
+    computador_escolha = int(random.choice(num))
 
     print("Você escolheu:", opcoes[jogador_escolha])
     print("O computador escolheu:", opcoes[computador_escolha])
